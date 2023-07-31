@@ -1,0 +1,7 @@
+bin/*
+.classpath
+build/classes/*
+build/dist/overlay/*
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.project

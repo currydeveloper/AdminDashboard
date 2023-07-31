@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+  <SPRight displayName="adminDashboardRight" name="adminDashboardRight"/>
+  <SPRight displayName="dashboardRESTAllow" name="dashboardRESTAllow"/>
+  <SPRight displayName="applicationstatus" name="applicationstatus"/>
+  <Capability displayName="Admin Dashboard" name="Admin Dashboard">
+    <RightRefs>
+      <Reference class="sailpoint.object.SPRight" name="adminDashboardRight"/>
+      <Reference class="sailpoint.object.SPRight" name="dashboardRESTAllow"/>
+      <Reference class="sailpoint.object.SPRight" name="applicationstatus"/>
+    </RightRefs>
+  </Capability>
+</sailpoint>
